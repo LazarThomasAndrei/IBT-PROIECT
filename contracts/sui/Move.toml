@@ -1,0 +1,10 @@
+[package]
+name = "ibt"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+ibt = "0xf03ea7d97841b474ebfc45d21883c64ec6ec30c2d10b2bbb74572fff2024a488"  # Replace with your address
+sui = "0x2"  # Sui framework address
